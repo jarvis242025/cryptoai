@@ -1,0 +1,51 @@
+{
+  "timestamp": "20260105_230556",
+  "exchange_id": "coinbase",
+  "symbol": "SOL-USD",
+  "timeframe": "15m",
+  "features": [
+    "trend_dist",
+    "rsi",
+    "atr_pct",
+    "rolling_vol",
+    "vol_spike",
+    "range_pct",
+    "returns_1",
+    "returns_4",
+    "ema_slope",
+    "macd_hist",
+    "bb_pos",
+    "bb_width",
+    "vol_z"
+  ],
+  "recommended_threshold": 0.39999999999999997,
+  "prob_stats": {
+    "min": 0.0,
+    "mean": 0.09131208863483996,
+    "max": 0.5671209273182957,
+    "p50": 0.09622983411716583,
+    "p75": 0.09838287981298044,
+    "p90": 0.12470714635674772,
+    "p95": 0.1613014181354644,
+    "p99": 0.28032982896940845
+  },
+  "metrics": {
+    "threshold_0.5": {
+      "precision": 0.5,
+      "recall": 0.0026954177897574125,
+      "f1": 0.005361930294906166,
+      "accuracy": 0.9465494885463189,
+      "brier": 0.05182223728928912,
+      "pr_auc": 0.09271842273102016
+    },
+    "selected": {
+      "threshold": 0.39999999999999997,
+      "n_signals": 2,
+      "signals_per_day": 0.027574321413183972,
+      "precision": 0.5,
+      "recall": 0.0026954177897574125,
+      "f1": 0.005361930294906166
+    }
+  },
+  "train_rows": 27761
+}

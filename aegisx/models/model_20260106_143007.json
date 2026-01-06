@@ -1,0 +1,58 @@
+{
+  "timestamp": "20260106_143007",
+  "exchange_id": "coinbase",
+  "symbol": "SOL-USD",
+  "timeframe": "15m",
+  "features": [
+    "trend_dist",
+    "rsi",
+    "atr_pct",
+    "rolling_vol",
+    "vol_spike",
+    "range_pct",
+    "returns_1",
+    "returns_4",
+    "ema_slope",
+    "macd_hist",
+    "bb_pos",
+    "bb_width",
+    "vol_z",
+    "fib_retrace",
+    "fib_in_golden",
+    "fib_dist_to_50",
+    "fib_dist_to_618",
+    "fib_swing_range_pct",
+    "hurst"
+  ],
+  "recommended_threshold": 0.1432790387640158,
+  "threshold_policy": "target_rate",
+  "prob_stats": {
+    "min": 0.0,
+    "mean": 0.09053217023500712,
+    "max": 0.5155212069672944,
+    "p50": 0.09317334892664875,
+    "p75": 0.1035118427654718,
+    "p90": 0.12051906530417152,
+    "p95": 0.1432790387640158,
+    "p99": 0.26979855299527433
+  },
+  "metrics": {
+    "threshold_0.5": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.9462613456274312,
+      "brier": 0.05191337628439065,
+      "pr_auc": 0.09288269872303295
+    },
+    "selected": {
+      "threshold": 0.1432790387640158,
+      "n_signals": 348,
+      "signals_per_day": 4.797931925894011,
+      "precision": 0.11494252873563218,
+      "recall": 0.10752688172043011,
+      "f1": 0.1111111111111111
+    }
+  },
+  "train_rows": 27761
+}

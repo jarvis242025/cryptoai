@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+.DS_Store
+.env
+.env.*
+.python-version
+.idea/
+.vscode/
+*.log
+aegisx.zip

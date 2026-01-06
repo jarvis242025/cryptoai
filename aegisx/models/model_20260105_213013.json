@@ -1,0 +1,19 @@
+{
+  "timestamp": "20260105_213013",
+  "symbol": "BTC/USDT",
+  "timeframe": "15m",
+  "features": [
+    "trend_dist",
+    "rsi",
+    "atr_pct",
+    "rolling_vol",
+    "vol_spike",
+    "range_pct"
+  ],
+  "metrics": {
+    "precision": 0.0,
+    "high_conf_precision": 0.0,
+    "accuracy": 0.9414893617021277
+  },
+  "train_rows": 751
+}
