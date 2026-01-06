@@ -1,5 +1,7 @@
 # Aegis-X Sniper–Shield
 
+![CI](https://github.com/placeholder/aegisx/actions/workflows/ci.yml/badge.svg)
+
 A production-grade algorithmic trading system with a simulation-first architecture.
 
 ## Features
@@ -56,9 +58,5 @@ python -m aegisx.cli live --i-understand-this-can-lose-money
 ## Testing
 Run the test suite:
 ```bash
-pytest
+python -m pytest
 ```
-
-## Windows Testing Note
-
-On Windows, run tests with python -m pytest to avoid PATH conflicts with global pytest installations.
