@@ -1,6 +1,6 @@
 # Aegis-X Sniper–Shield
 
-![CI](https://github.com/placeholder/aegisx/actions/workflows/ci.yml/badge.svg)
+[![CI](https://github.com/jarvis242025/cryptoai/actions/workflows/ci.yml/badge.svg)](https://github.com/jarvis242025/cryptoai/actions/workflows/ci.yml)
 
 A production-grade algorithmic trading system with a simulation-first architecture.
 
