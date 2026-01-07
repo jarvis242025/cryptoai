@@ -1,6 +1,6 @@
 # Aegis-X Sniper–Shield
 
-[![CI](https://github.com/jarvis242025/cryptoai/actions/workflows/ci.yml/badge.svg?cachebust=1)](https://github.com/jarvis242025/cryptoai/actions/workflows/ci.yml)
+[![CI](https://github.com/jarvis242025/cryptoai/actions/workflows/ci.yml/badge.svg)](https://github.com/jarvis242025/cryptoai/actions/workflows/ci.yml)
 
 A production-grade algorithmic trading system with a simulation-first architecture.
 
@@ -60,4 +60,5 @@ Run the test suite:
 ```bash
 python -m pytest
 ```
+
 
